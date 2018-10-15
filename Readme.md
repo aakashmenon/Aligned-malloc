@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------
 
-** Aligned Malloc**
+# **Aligned Malloc**
 
 Malloc (void *malloc(size_t size)) and free (void free(void *ptr)) are part of stdlib library which allows user to dynamically allocate and free memory from the heap.
 
