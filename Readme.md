@@ -10,9 +10,13 @@ Free will free up this dynamically allocated memory back to the heap.
 The memory allocated by malloc is typically random and may cause multiple read/write cycles if unaligned.
 
 For example, if the memory layout is as follows:
+
 ADDR: 0    1    2    3
+
 ADDR: 4    5    6    7
+
 ADDR: 8    9    10   11
+
 ...
 
 If we want to allocate 4 bytes of memory and malloc returns starting address of 3, assumming 8 bits can be stored at each location, 4 bytes will be stored from address location 3 to 6.
