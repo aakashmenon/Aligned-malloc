@@ -9,7 +9,7 @@ Free will free up this dynamically allocated memory back to the heap.
 
 The memory allocated by malloc is typically random and may cause multiple read/write cycles if unaligned.
 
-For example, if the memory layout is as follows
+For example, if the memory layout is as follows:
 ADDR: 0    1    2    3
 ADDR: 4    5    6    7
 ADDR: 8    9    10   11
